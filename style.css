@@ -1,0 +1,132 @@
+body {
+    background-color: #1f242d;
+
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color:#1f242d ;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    color: rgb(37, 188, 14);
+}
+.home{
+    display: flex;
+    align-items: center;
+    height:100vh;
+    padding: 60px 9% 0;
+    color:white;
+}
+.home_info h1{
+    font-size: 45px;
+}
+.home_info h2{
+    font-size: 26px;
+    margin-top: -10px;
+}
+.home_info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.btn_sci {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.home-info btn_sci{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding:10px 30px;
+    background: greenyellow;
+    border:2px solid;
+    border-radius: 40px;
+    box-shadow: 0 0 10;
+    font-size: 18px;
+    color: #1f242d;
+    font-weight: 600;
+    transition: .5s;
+}
+.btn:hover{
+    background: transparent;
+    color: greenyellow;
+    box-shadow: none;
+}
+.home_info .btn_sci .sci{
+    margin-left: 20px;
+}
+.home_info .btn_sci .sci a{
+    font-size: 20px;
+    color: greenyellow;
+    display:inline-flex;
+    padding:8px;
+    border:2px solid greenyellow;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition:  .5s;
+}
+.home_info .btn_sci .sci a:hover{
+    background: greenyellow;
+    color: #1f242d;
+    box-shadow: 0 0 10px #7cf03d;
+}
+.home_img .img_box{
+    width:50vw;
+    height:50vw;
+    border-radius: 50%;
+    
+ 
+}
+.home_img .img_box .img_item{
+    width:100%;
+    position: relative;
+    height:100%;
+    background:1f242d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow:hidden;
+}
+.home_img .img_box .img_item img{
+    position:absolute;
+    top:20px;
+    display: block;
+    width:85%;
+    object-fit: cover;
+}
+
+/* for about me  */
+
+
